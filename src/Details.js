@@ -36,7 +36,17 @@ export const personalDetails = {
   name: "Montgomery T",
   tagline: "I'm Coder",
   img: profile,
-  about: `ini bagian about nya`,
+  about: `I’m a Computer Science undergraduate student who has a passion for programming.
+  In addition, I have an interest in Software and Web Development.
+  Through my education, I have developed my skills such as operating
+  the Python and C language for processing data structures,
+  Java and Dart programming language for application development also
+  Javascript and PHP programming language for web development. I can use various framework
+  like Laravel, Flask, Spring and Flutter. That aside, I have learnt SQL and CLI networking.
+  I am active in various organizations and committees to improve teamwork, self-confidence,
+  communication and leadership skills. In the future, I'm hoping to achieve great success
+  in the field of computer science and make a positive impact on the world through my work.
+   I'm excited about the possibilities and look forward to the opportunities that lie ahead.`,
 };
 
 // Enter your Social Media URLs here
