@@ -36,7 +36,7 @@ export const personalDetails = {
   name: "Montgomery T",
   tagline: "I'm Coder",
   img: profile,
-  about: `I’m a Computer Science undergraduate student who has a passion for programming.
+  about: `I'm a Computer Science undergraduate student who has a passion for programming.
   In addition, I have an interest in Software and Web Development.
   Through my education, I have developed my skills such as operating
   the Python and C language for processing data structures,
@@ -60,43 +60,64 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Event: "ELECTRICAL FIESTA 17 ROBOTICS COMPETITION",
+    Company: `Universitas Kristen Petra`,
+    Location: "Surabaya, Indonesia",
+    Position: "2nd Winner",
+    Duration: "May 2021",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Event: "ASIA KAKEHASHI EXCHANGE STUDENT SCHOLARSHIP",
+    Company: `AFS & MEXT`,
+    Location: "Nagano, Japan",
+    Position: "Student Exchange",
+    Duration: "October 2021 - March 2022",
+  },
+  // {
+  //   Event: "PPTI 15",
+  //   Company: `PPTI 15`,
+  //   Location: "Sentul, Indonesia",
+  //   Position: "Coordinator",
+  //   Duration: "July 2022 - December 2022",
+  // },
+  {
+    Event: "GOOGLE DEVELOPMENT STUDENT CLUB - HACKFEST 2024",
+    Company: `Google Development Student Club`,
+    Location: "Indonesia",
+    Position: "Participant",
+    Duration: "January 2024",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Event: "ANDROID HACKATHON SLASH NATIONAL COMPETITION 2024",
+    Company: `UPN Veteran Jakarta`,
+    Location: "Indonesia",
+    Position: "Participant",
+    Duration: "May 2024",
   },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
+    School: "Regina Pacis (Ursulin) Senior High School",
+    // Company: "Udemy, YouTube, Google, Medium",
+    Location: "Indonesia",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Duration: "2019 - 2022",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    School: "Tokyo University Shiojiri Senior High School",
+    // Company: `Your College Name here`,
+    Location: "Japan",
+    Type: "Exchange Student",
+    Duration: "October 2021 - March 2022",
+  },
+  {
+    School: "Bina Nusantara University",
+    // Company: `Your College Name here`,
+    Location: "Indonesia",
+    Type: "Undergraduate Student",
+    Duration: "July 2022 - current",
   },
 ];
 
@@ -178,6 +199,6 @@ project lorem ipsum generator for dummy content`,
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "montgomery2515@gmail.com",
+  phone: "+62 87835417317",
 };

@@ -13,7 +13,7 @@ function Contact() {
       </h3>
       <span className="text-center text-content text-xl font-light block">or</span>
       <h3 className="text-center text-3xl md:text-4xl lg:text-6xl text-gradient font-semibold md:font-bold pt-2 md:py-6">
-        <a href={`tel:${phone}`}>{phone}</a>
+        <a href="https://wa.me/+6287835417317" target="_blank" rel="noreferrer">{phone}</a>
       </h3>
     </main>
   );

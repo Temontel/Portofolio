@@ -13,15 +13,15 @@ function About() {
       </section>
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          Work Experience
+          Experience
         </h1>
         {React.Children.toArray(
-          workDetails.map(({ Position, Company, Location, Type, Duration }) => (
+          workDetails.map(({ Event, Company, Location, Position, Duration }) => (
             <Work
-              position={Position}
+              event={Event}
               company={Company}
               location={Location}
-              type={Type}
+              position={Position}
               duration={Duration}
             />
           ))
@@ -29,15 +29,15 @@ function About() {
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          Education
+          Education 
         </h1>
         {React.Children.toArray(
-          eduDetails.map(({ Position, Company, Location, Type, Duration }) => (
+          eduDetails.map(({ School, Company, Location, Type, Duration }) => (
             <Work
-              position={Position}
-              company={Company}
+              event={School}
+              // company={Company}
               location={Location}
-              type={Type}
+              position={Type}
               duration={Duration}
             />
           ))

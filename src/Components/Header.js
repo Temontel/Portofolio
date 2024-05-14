@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink , Link } from "react-router-dom";
 import { logos, socialMediaUrl } from "../Details";
 
 function Header() {
@@ -41,20 +41,23 @@ function Header() {
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/about" onClick={toggleClass}>
+            {/* <NavLink to="/about" onClick={toggleClass}>
               About
-            </NavLink>
+            </NavLink> */}
+            <Link to="/about" onClick={toggleClass}>
+              About
+            </Link>
           </li>
           <li className="pb-1 md:pb-0">
             <NavLink to="/technologies" onClick={toggleClass}>
               Technologies
             </NavLink>
           </li>
-          <li className="pb-1 md:pb-0">
+          {/* <li className="pb-1 md:pb-0">
             <NavLink to="/projects" onClick={toggleClass}>
               Projects
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink to="/contact" onClick={toggleClass}>
               Contact
